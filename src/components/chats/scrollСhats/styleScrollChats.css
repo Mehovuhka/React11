@@ -1,0 +1,108 @@
+.scroll{
+    overflow-y: scroll;
+    height: 72%;
+}
+.scroll::-webkit-scrollbar {
+    width: 6px;               /* ширина scrollbar */
+  }
+  .scroll::-webkit-scrollbar-track {
+    background: #e6ecfe;
+    ;        /* цвет дорожки */
+  }
+  .scroll::-webkit-scrollbar-thumb {
+    background-color: #B7BDCB;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+  }
+
+.all-chats{
+    display: block;
+}
+
+.chatsElem{
+    display: flex;
+    
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 570px;
+}
+.all-about{
+    display: flex;
+    width: 100%;
+}
+.about-user{
+    display: grid;
+    width: 100%;
+}
+.chatsElem a {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 30px;
+    width: 520px;
+}
+.nameRecipient {
+    padding-top: 3px;
+    margin-left: 22px;
+    width: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0D1C2E;
+}
+
+.statusRecipient{
+    margin-left: 22px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: stretch;    
+}
+.statusRecipient span{
+    
+}
+
+.online{
+    color: #2A8BF2;
+}
+
+.writes::before{
+    content: "...";
+
+    margin-right: 5px;
+}
+.records-voice::before{
+    content: url("/public/Rec_Icon.svg");
+
+    margin-right: 5px;
+}
+.status-message{
+    width: 100%;
+    text-align: right;
+}
+
+.lastMessageText{
+    padding-top: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #707C97;
+    
+}
+
+.numberNotReaded{
+    position: absolute;
+    top: 50%;
+    left:93%;
+    transform: translateY(50%, 0);
+
+    color:#fff;
+    background: #FF3366;
+    box-shadow: 4px 4px 15px rgba(198, 27, 74, 0.05), 2px 2px 10px rgba(198, 27, 74, 0.1), 1px 1px 50px rgba(198, 27, 74, 0.15);
+    border-radius: 30px;
+    padding: 1px 7px;
+    text-align: center;
+}

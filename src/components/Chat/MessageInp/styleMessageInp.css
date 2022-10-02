@@ -1,0 +1,47 @@
+.divMessageInp{
+    display: flex;
+    margin-top: 727px;
+    height: 89px;
+    width: 110px;
+    border-top-color: rgba(112, 124, 151, 0.15);
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+.addFiles{
+    height: 40px;
+    width: 40px;
+    margin-left: 53px;
+    margin-top: 19px;
+}
+
+.inputMess{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    border: #ffffff solid 0px;
+    outline: none;
+}
+
+.inputMess ::placeholder{
+    color: rgba(112, 124, 151, 0.5);
+}
+
+.addSmiles{
+    padding-left: 383px;
+    margin-top: 27px;
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+.sendMess{
+    padding-left: 16px;
+}
